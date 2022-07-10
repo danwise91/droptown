@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Drop Town">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=0.8, height=device-height"/>
+<meta name="theme-color" content="#001432"/>
+<title>Drop Town - White Paper</title>
+<link rel="shortcut icon" href="../favicon.png">
+<link href="../css/style.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;800&family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/StarshipRegular.woff2" as="font" type="font/woff2" crossorigin>
+<script src="../js/lazyload.min.js"></script>
+<script type="text/javascript">
+	function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "";
+		document.body.appendChild(element);
+	}
+
+</script>
+
+</head>
+
+<body>
+
+<input id="MENU" type="checkbox" class="hi">
+
+	<nav class="wp-nav">
+		<input id="MainBtn" type="checkbox" class="hi">
+		<label for="MainBtn">
+			<span></span>
+		</label>
+		<div class="mc">
+			<a href="../">
+				<img src="../img/pega-mining-anime.gif" alt="Drop Town" class="lazyload logo-anime hi">
+				<picture>
+	                <source srcset="../img/logo.webp" type="image/webp">
+	                <source srcset="../img/logo.png" type="image/png">
+	                <img data-src="../img/logo.png" alt="Drop Town" class="lazyload logo">
+	            </picture>
+			</a>
+			<div class="nav-l-c">
+				<a href="#Website-Builder" class="nav-l">Website Builder</a>
+				<a href="#Town-Square" class="nav-l">Town Square</a>
+				<a href="#Branding" class="nav-l">Branding</a>
+				<a href="#User-Owned" class="nav-l">User Owned</a>
+				<a href="#NFT-Drops" class="nav-l">NFT Drops</a>
+				<a href="#Road-Map" class="nav-l">Road Map</a>
+				<a href="../white-paper/" class="nav-hl">White Paper</a>
+			</div>
+		</div>
+	</nav>
+
+	<section id="WHITEPAPER">
+
+		<div class="toc" onclick="CloseMenu();">
+            <ul>
+	            <li class="title">New Resident? Start here!</li>
+	            <li class="What-is-DropTown"><a href="#What-is-DropTown">What is DropTown?</a></li>
+			    <li class="Webpreneur-3-0 "><a href="#Webpreneur-3-0">Webpreneur 3.0</a></li>
+			    <li class="Why-create-an-NFT-launchpad "><a href="#Why-create-an-NFT-launchpad">Why create an NFT launchpad?</a></li>
+			    <li class="B2D-Business-to-DAO "><a href="#B2D-Business-to-DAO">B2D (Business-to-DAO)</a></li>
+
+			    <li class="title">The Town Square - Admin Dashboard</li>
+	            <li class="What-s-inside-the-Town-Square"><a href="#What-s-inside-the-Town-Square">What's inside the Town Square?</a></li>
+			    <li class="Mock-Designs-n-Descriptions"><a href="#Mock-Designs-n-Descriptions">Mock Designs & Descriptions</a></li>
+			    <li class="Seeking-Launchpads-Bulletin-Board"><a href="#Seeking-Launchpads-Bulletin-Board">Seeking Launchpads Bulletin Board</a></li>
+			    <li class="Project-Auctions"><a href="#Project-Auctions">Project Auctions</a></li>
+			    <li class="Project-Onboarding-Process"><a href="#Project-Onboarding-Process">Project Onboarding Process</a></li>
+			    <li class="Tech-Stack-Blueprints"><a href="#Tech-Stack-Blueprints">Tech Stack Blueprints</a></li>
+
+			    <li class="title">Standard Menu [All DropTown Users]</li>
+	            <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+
+			    <li class="title">Gen0 Citizen NFTs</li>
+	            <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+
+			    <li class="title">Town NFTs</li>
+	            <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+
+			    <li class="title">The DropDAO</li>
+	            <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+
+			    <li class="title">Domain Service & ".drop" Domains</li>
+	            <li class=""><a href="#"></a></li>
+
+			    <li class="title">Roadmap</li>
+	            <li class=""><a href="#"></a></li>
+			    <li class=""><a href="#"></a></li>
+            </ul>
+        </div>
+		
+		<div class="mc">
+			<div class="title">
+				<div class="frame-c top white" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+					<picture class="corner">
+		                <source srcset="../img/corner-a.webp" type="image/webp">
+		                <source srcset="../img/corner-a.png" type="image/png">
+		                <img data-src="../img/corner-a.png" alt="Drop Town" class="lazyload">
+		            </picture>
+					<picture class="corner">
+		                <source srcset="../img/corner-a.webp" type="image/webp">
+		                <source srcset="../img/corner-a.png" type="image/png">
+		                <img data-src="../img/corner-a.png" alt="Drop Town" class="lazyload">
+		            </picture>
+				</div>
+				<h1 a-c>DropTown</h1>
+				<h2 a-c>White Paper<small> 2022.Jul.07</small></h2>
+				<div class="frame-c bottom white" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
+					<picture class="corner">
+		                <source srcset="../img/corner-a.webp" type="image/webp">
+		                <source srcset="../img/corner-a.png" type="image/png">
+		                <img data-src="../img/corner-a.png" alt="Drop Town" class="lazyload">
+		            </picture>
+					<picture class="corner">
+		                <source srcset="../img/corner-a.webp" type="image/webp">
+		                <source srcset="../img/corner-a.png" type="image/png">
+		                <img data-src="../img/corner-a.png" alt="Drop Town" class="lazyload">
+		            </picture>
+				</div>
+			</div>
+		</div>
+
+		<section id="What-is-DropTown">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>What is DropTown?</h3>
+					<p>Hello there! Are you new around these parts? Well, let me be the first to welcome you to DropTown!</p>
+					<p>Now you’re probably wondering what the devil is this strange new project. Is it just another run-of-the-mill PFP collection? Well, while we don’t want to brag about how awesome the art is, DropTown is in-fact providing a new form of NFT utility.</p>
+					<p>DropTown is fueling a whole new era in web 3.0 allowing anyone to create their own business through NFT launchpads.</p>
+					<p>We’re strong believers in digital economies and that’s what DropTown supports. Want to hear more? Let’s get started then...</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="Webpreneur-3-0">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>Webpreneur 3.0</h3>
+					<p>Loyal citizens of DropTown are entitled to their own plot of digital land through DropTown.</p>
+					<p>But these aren’t your everyday plots of digital land…there is something special behind them.</p>
+					<p>Owning a DropTown land NFT, or a Town, as we call them, allows you to create and modify your very own NFT launchpad!</p>
+					<p>Your town is yours to do with as you wish! You can set your own fee, pick which projects to host, and customize the website of your launchpad with our user-friendly editor.</p>
+					<p>We're ushering in a new era of entrepreneurship in Web3 through a decentralized model giving NFT holders a headstart in creating the business they've envisioned. </p>
+					<p>Regardless if you’re a solo entrepreneur, a DAO, or just a group of buddies looking to start something new, DropTown can get you started in the fastest way possible.</p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="Why-create-an-NFT-launchpad">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>Why create an NFT launchpad?</h3>
+					<p>Is running an NFT launchpad profitable? Well, new project ideas spring up every day and creators are looking for the best way to bring their collections to the public. While some have the technical support to do it on their own, many do not and thus seek out launchpads.</p>
+					<p>NFT launchpads play a vital role in the future of projects because they not only help teams bring their collections and platforms to market but also serve as a means to assure buyers that they’re making a purchase from a reputable source.</p>
+					<p>To put it simply, DropTown is decentralizing launchpad ownership! A world where anyone has the power to create and run a launchpad the way they want.</p>
+					<p>
+						<strong>Does it cost a lot to build your own NFT launchpad?</strong><br />
+						You’ll need to account for development, marketing, and basically convince projects to launch with you. DropTown is helping to relieve some stress by supplying a wide range of tools and services that you need to build a successful launchpad business.
+					</p>
+					<p>
+						<strong>How can you use your launchpad?</strong><br />
+						Only you hold all the power to your launchpad so you can use it as you wish! Use it mint projects you select (or even your own), set your own fees, and develop your own brand. We're well aware that other types of web3 businesses exist and there are many more to emerge, which is why we intend to bring more tools and features to cater to an array of entrepreneurs. 
+					</p>
+					<p>To start, we plan to make DropTown a multi-chain platform. Why is that? Because all ecosystems deserve the chance to introduce fresh projects to them and we want to provide users with options.</p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="B2D-Business-to-DAO">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>B2D (Business-to-DAO)</h3>
+					<p>DropTown is enabling a new type of decentralized service that we like to call "B2D" or Business-to-DAO.</p>
+					<p>While the platform enables anyone to launch NFT collections of their choosing, DAOs and communities can come together to use DropTown's platform to benefit their organizations and expand their brand. </p>
+					<p>Existing DAOs and NFT communities have the opportunity to utilize the DropTown platform to create their own NFT launchpad to bring their own new collections to market or those created by partners and community members. </p>
+					<p>This allows decentralized organizations to utilize their brand in a whole new way while opening up a new revenue stream and providing a new way to interact with communities, both internal and external. </p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="What-s-inside-the-Town-Square">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>What's inside the Town Square?</h3>
+					<p>The Town Square is the main hub for everything you need to create and manage your launchpad. Once you login to our platform it will be the first thing you see, so it’s basically your admin dashboard <em>(we just gave it a fancy name)</em>.</p>
+					<p>At the Town Square you’ll have access to all holder-exclusive services including:</p>
+					<ul>
+						<li>Site editor</li>
+						<li>DropTown marketplace</li>
+						<li>News reel</li>
+						<li>Leaderboards (mints per week)</li>
+						<li>Project vetting requests</li>
+						<li>Citizen NFT staking </li>
+						<li>Town listings</li>
+						<li>Project onboarding</li>
+						<li>.drop domain registration </li>
+						<li>"Seeking Launchpad" bulletin board</li>
+						<li>Project auctions</li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="Mock-Designs-n-Descriptions">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>Mock Designs & Descriptions</h3>
+					<p>Before you start salivating over the previews for our dashboards we want to make sure you understand that in order to access the Town Square menu you’ll need two things…1) a DropTown account and 2) a Citizen NFT.</p>
+					<p>Got it? Awesome. Here's the previews...</p>
+					<p>
+						<strong>Launchpad Site Editor</strong><br />
+						Our no-code editor where you'll create the front-end for your web3 business, NFT launchpad included. All sites come with anti-bot security and drag-and-drop editor.
+					</p>
+					<p>
+						<strong>DropTown Marketplace</strong><br />
+						Where Town owners can purchase tools and more ways to customize their sites. Site templates, dev tools, custom designs, management tools, community bots, and more will be available. All purchases must be made in $DROP.
+					</p>
+					<p>
+						<strong>Project Vetting Requests</strong><br />
+						Requests to vet projects you intend to host but want to showcase to potential buyers are also legit can be made here. All requests are sent to the DropDAO for validation. A fee in DROP must also be sent for the request to be processed. 
+					</p>
+					<p>
+						<strong>Citizen NFT staking</strong><br />
+						Where you can stake citizen NFTs for passive DROP earnings. Rarity effects earning rate.
+					</p>
+					<p>
+						"Seeking Launchpad" bulletin board
+						View a list of all projects looking for a DropTown launchpad to release with. Find details and contact info attached to each listing. 
+					</p>
+					<p>
+						<strong>News Reel</strong><br />
+						See the latest updates from the DropTown crew.
+					</p>
+					<p>
+						<strong>Leaderboards</strong><br />
+						View which Towns are crushing it when it comes to hosting NFT mints.
+					</p>
+					<p>
+						<strong>Project Onboarding</strong><br />
+						Go through the process to get selected projects aligned with your launchpad and scheduled for their mint. Projects will be required to upload their needed materials and details. 
+					</p>
+					<p>
+						<strong>Town Listings</strong><br />
+						In this dashboard users can view all active Town launchpads. By clicking on a listing they can see valuable data including the number of mints held, ranking, owner profile, and a direct link to the site.
+					</p>
+					<p>
+					There is also a search feature where you can search Towns by a unique name or NFT ID. 
+					</p>
+					<p>
+						<strong>.DROP domain services</strong><br />
+						Find and register a .drop domain to give your site a unique domain name. All .drop registrations require a yearly subscription in DROP. 
+					</p>
+					<p>
+						<strong>Project Auctions</strong><br />
+						Check out and bid on popular projects that could bring big bucks to your Town.
+					</p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="Seeking-Launchpads-Bulletin-Board">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>Seeking Launchpads Bulletin Board</h3>
+					<p>Any launchpad owners looking for projects to host can turn to our bulletin board where projects are listed that are looking to launch. </p>
+					<p>The contact details of each project will be provided along with details of the project, preferred blockchain, and the targeted release date. Launchpad owners and projects can contact each other and negotiate out a deal. </p>
+					<p>The Bulletin Board is DropTown's method to bring projects and launchpad owners together to converse and figure out how the release will work. </p>
+					<p>Please note that this is NOT the only method to find projects to onboard. Owners may use other methods detailed in <a href="#DropTown-marketing-services" class="g-link">DropTown marketing services.</a></p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="Project-Auctions">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>Project Auctions</h3>
+					<p>Project Auctions are reserved for upcoming mints for projects that are considered "highly-hyped" or are being conducted by big named teams.</p>
+					<p>Town owners are able to engage in a "bid" to reserve their Town for this specific project. The winner of the auction will host the mint and share in the profits generated during the mint with the project.</p>
+					<p>We felt auctions would be most appropriate for these types of projects considering it would greatly reduce the influx of message requests from Town owners and narrows it down to only Town owners serious about hosting the project.</p>
+					<p>A starting bid will be provided by the project. The winning bid will sent to DropTown in exchange for the reservation spot. </p>
+					<p class="info">
+						Failure to conduct the mint will result in penalties and possible bans for both the project and Town Owner. please not that only vetted projects are eligible for auctions.
+					</p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="Project-Onboarding-Process">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>Project Onboarding Process</h3>
+					<p>To begin the onboarding of a project you plan to host you'll first need to create a request to book the project.</p>
+					<p>First go to your Town Square and click on the "Project Onboarding" button from the main menu.</p>
+					<p>Next, you'll select if the project is "yours" or an "external project". If the project is external then you'll proceed to the next step. If it's your own then you'll just need to fill out the project details, select the blockchain you want to launch on, and upload your needed materials (as explained further below).</p>
+					<p>From here you'll need to provide details about the project such as it's main email, minting date, blockchain of choice, and other details.</p>
+					<p>The project will receive a verification email where they'll be prompted to login to their existing DropTown account or create one if they haven't.</p>
+					<p class="info">
+						No NFTs are required for a basic DropTown account
+					</p>
+					<p>Once the project owner(s) have logged into their account they'll be taken to a registration page where they'll be prompted to upload all assets for their NFT mint via layer, confirm the minting date, select any dev tools they wish to use provided by the Town owner, and confirm the blockchain the mint will take place on.</p>
+					<p>After the form is submitted the mint will be confirmed, added to the <a href="#Minting-Calendar" class="g-link">Minting-Calendar</a>, and the project owners will be taken back to the <a href="#My Drops" class="g-link">Standard Menu [All DropTown Users]</a>.</p>
+					<p>From this menu, the project owner will receive a notice in their inbox that their mint is scheduled and dev tools available if the Town owner has any purchased. These tools can be accessed under the <a href="#My Drops" class="g-link">My Drops</a> menu. </p>
+					<p class="info">
+						After a project's mint is finished, access to these devs tools will become LOCKED for the project owner(s) until another mint is scheduled. Town owners have direct access to these tools 24/7.
+					</p>
+					<p>If changes are needed, the project must contact the Town owner who can adjust the minting details through the Town Square dashboard. </p>
+					<p>Prior to the mint, project owners will be alerted to get in contact with NFT marketplaces to get their project listed post mint. Depending on the selected blockchain for the mint, a selection of NFT marketplaces will be delivered to their inbox with DropTown partnered marketplaces highlighted.</p>
+					<p>If you're onboarding your own project then you'll receive this email directly in your inbox right after the form is submitted. </p>
+					<p>Partnered marketplaces are trustworthy parties whom we have a working relationship with. Projects can submit a request to these marketplaces in a streamlined fashion and get their listing straighten out. </p>
+					<p class="info">
+						Please note that while not every non-partnered marketplace is malicious we do highly recommend you look into any third party store fronts that you're interested in doing business with.
+					</p>
+					<p>After the mint is completed, the hosted project will directly receive their entitled funds from the mint, while the Town owner receives their cut after DropTown fees are taken.</p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="Tech-Stack-Blueprints">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>Tech Stack Blueprints</h3>
+					<p>include blueprints here</p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="">
+
+			<div class="mc">
+				<div class="ic">
+					<h3></h3>
+
+				</div>
+			</div>
+
+		</section>
+
+		<section id="">
+
+			<div class="mc">
+				<div class="ic">
+					<h3></h3>
+
+				</div>
+			</div>
+
+		</section>
+
+		<section id="">
+
+			<div class="mc">
+				<div class="ic">
+					<h3></h3>
+
+				</div>
+			</div>
+
+		</section>
+
+		<section id="DropTown-marketing-services">
+
+			<div class="mc">
+				<div class="ic">
+					<h3>DropTown marketing services</h3>
+					<p>Need a way to get the word out about your town?</p>
+					<p>Marketing services will be available for purchase with $DROP token through the DropTown marketplace. Initial services include <strong>front-page ads</strong> for upcoming mints hosted by your Town on the main DropTown website. </p>
+					<p><strong>Other services include:</strong></p>
+					<ul>
+						<li>Social Media posts through our channels</li>
+						<li>Featurettes on our Blog </li>
+						<li>AMAs</li>
+						<li>Guest spots on our podcast</li>
+						<li>Marketing packages </li>
+					</ul>
+					<p>Additional marketing support will be provided in the future.</p>
+				</div>
+			</div>
+
+		</section>
+
+		<video autoplay loop muted>
+		  <source src="../media/gears-trc.webm" type="video/webm">
+		  <source src="../media/gears-trc.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		</video>
+
+		<picture>
+            <source srcset="../img/bg-texture.webp" type="image/webp">
+            <source srcset="../img/bg-texture.jpg" type="image/jpg">
+            <img data-src="../img/bg-texture.jpg" alt="Drop Town" class="lazyload texture">
+        </picture>
+
+        <div class="hs-100"></div>
+
+	</section>
+
+	<section id="FOOTER">
+		<div class="mc a-c">
+			<a href="#Website-Builder">Website Builder</a>
+			<a href="#Town-Square">Town Square</a>
+			<a href="#Branding">Branding</a>
+			<a href="#User-Owned">User Owned</a>
+			<a href="#NFT-Drops">NFT Drops</a>
+			<a href="#Road-Map">Road Map</a>
+			<a href="../white-paper/">White Paper</a>
+			<br /><br />
+			<picture>
+                <source srcset="../img/logo.webp" type="image/webp">
+                <source srcset="../img/logo.png" type="image/png">
+                <img data-src="../img/logo.png" alt="Drop Town" class="lazyload logo">
+            </picture>
+            <br /><br />
+            <small>
+            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et interdum felis, ac lobortis enim.
+            	<br /><br />
+				© 2022 DropTown
+            </small>
+		</div>
+	</section>
+
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+	AOS.init();
+
+	  function CloseMenu() {
+    document.getElementById("MENU").checked = false;
+  }
+</script>
+
+<script type="text/javascript">
+
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll(".toc ul li");
+window.onscroll = () => {
+  var current = "";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop - 60) {
+      current = section.getAttribute("id"); }
+  });
+
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+};
+</script>
+
+</html>
