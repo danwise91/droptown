@@ -37,7 +37,7 @@ div, section, ul, ol, li {position: relative; float: left;}
 
 strong {font-weight: bolder;}
 
-p {padding: 0; position: relative; float: left;}
+p {padding: 0; position: relative; float: left; width: 100%;}
 
 h1, h2, h3, h4 {margin: 0; }
 h1 {font-size: 2.8rem; font-weight: 800; font-family: 'Abhaya Libre', serif;}
