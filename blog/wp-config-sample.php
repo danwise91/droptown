@@ -29,7 +29,7 @@ define( 'DB_USER', 'wwtuhputvqcdri' );
 define( 'DB_PASSWORD', '9d1bcfd0cb090e58ec23f05ab0459b7323b21d309630aacc94675a43c20bec14' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'ec2-44-206-197-71.compute-1.amazonaws.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
