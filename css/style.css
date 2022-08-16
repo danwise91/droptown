@@ -297,6 +297,27 @@ nav > label {display: none;}
 #ROADMAP .mc .lbl-c ul {position: relative; float: left; left: 50%; transform: translateX(-50%);}
 #ROADMAP .mc .lbl-c ul li {width: auto; display: inline-block; line-height: 1.1rem; color: var(--white) !important; margin: 0 10px ;} 
 
+#WHITEPAPER-COGS .mc {mix-blend-mode: screen;}
+#WHITEPAPER-COGS .mc .title {width: 100%; font-size: 2rem; font-family: 'Abhaya Libre', serif; text-align: center; text-transform: uppercase; font-weight: 800; filter: brightness(120%) contrast(200%); text-transform: uppercase; background: -webkit-linear-gradient(135deg, rgba(240, 140, 0, 1.00) 0%, rgba(150, 75, 0, 1.00) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+#WHITEPAPER-COGS .mc video {position: relative; float: left; left: 50%; transform: translateX(-50%); opacity: 0.10;}
+#WHITEPAPER-COGS .mc video:last-of-type {transform: translateX(-50%) rotate(180deg);}
+#TEAM {padding: 100px 0 0;}
+
+#TEAM .mc {display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;}
+#TEAM .mc .title {width: 100%; font-size: 2rem; font-family: 'Abhaya Libre', serif; text-align: center; text-transform: uppercase; font-weight: 800; filter: brightness(120%) contrast(200%); text-transform: uppercase; background: -webkit-linear-gradient(135deg, rgba(240, 140, 0, 1.00) 0%, rgba(150, 75, 0, 1.00) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+#TEAM .mc .c-25 {background-color: rgba(0, 0, 0, 0.20); padding: 120px 20px 40px 20px; margin: 0 0 60px 0; text-align: center; color: var(--white);}
+#TEAM .mc .c-25:before {content: ''; width: calc(100% + 10px); height: calc(100% + 10px); border: 1px solid rgba(255, 255, 255, 0.10); position: absolute; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%);}
+#TEAM .mc .c-25 .pic {width: 140px; height: 140px; border-radius: 120px; position: absolute; left: 50%; top: -30px; transform: translateX(-50%); overflow: hidden;}
+#TEAM .mc .c-25 .pic:before {content: ''; width: 100%; height: 100%; border-radius: 140px; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.10); position: absolute; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%);}
+#TEAM .mc .c-25 .pic img {width: calc(100% - 10px); height: auto; border-radius: 160px; margin: 5px;}
+#TEAM .mc .c-25 .name {width: 100%; font-family: 'Abhaya Libre', serif; text-transform: uppercase; font-size: 1.2rem;}
+#TEAM .mc .c-25 .position {width: 100%; text-transform: uppercase; font-size: 0.9rem; font-weight: 200; margin: 0 0 20px 0; opacity: 0.50;}
+#TEAM .mc .c-25 .bio {width: 100%; font-size: 0.85rem; font-weight: 200; margin: 0 0 20px 0;}
+#TEAM .mc .c-25 .social-links {width: 100%; text-align: center; position: absolute; bottom: 10px; left: 0;}
+#TEAM .mc .c-25 .social-links a {width: 40px; height: 40px; position: relative; display: inline-block; border-radius: 50px; background-color: rgba(255, 255, 255, 0.00); transition: all 0.5s;}
+#TEAM .mc .c-25 .social-links a:hover {background-color: rgba(255, 255, 255, 0.20);}
+#TEAM .mc .c-25 .social-links a .icon {position: absolute; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%); filter: invert(100%); opacity: 0.5; transition: all 0.5s;}
+#TEAM .mc .c-25 .social-links a:hover .icon {opacity: 0.75;}
 @keyframes ONGOINGGLOW {
 	0% {opacity: 0.00;}
 	50% {opacity: 1.00;}
@@ -467,10 +488,25 @@ nav > label {display: none;}
 .icon.smaller {width: 16px; height: 16px; background-size: 16px;}
 
 .icon.cog {background-position-y: -0px;}
+.icon.fb {background-position-y: -40px;}
+.icon.ig {background-position-y: -80px;}
+.icon.tt {background-position-y: -120px;}
+.icon.li {background-position-y: -160px;}
+.icon.ws {background-position-y: -200px;}
 
 .icon.small.cog {background-position-y: -0px;}
+.icon.small.fb {background-position-y: -20px;}
+.icon.small.ig {background-position-y: -40px;}
+.icon.small.tt {background-position-y: -60px;}
+.icon.small.li {background-position-y: -80px;}
+.icon.small.ws {background-position-y: -100px;}
 
 .icon.smaller.cog {background-position-y: -0px;}
+.icon.smaller.fb {background-position-y: -16px;}
+.icon.smaller.ig {background-position-y: -32px;}
+.icon.smaller.tt {background-position-y: -48px;}
+.icon.smaller.li {background-position-y: -64px;}
+.icon.smaller.ws {background-position-y: -80px;}
 
 
 @media only screen and (max-width: 1050px) {
